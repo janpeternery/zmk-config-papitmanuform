@@ -63,14 +63,14 @@
             //                                         |  raise  |    ~    |   gui   |  lower  |
 
             bindings = <
-&bt BT_SEL 0   &kp F1    &kp F2    &kp F3     &kp F4  &kp F5                  &kp F6      &kp F7                &kp F8                 &kp F9  &kp F10    &kp F11
-&bt BT_DISC 0  &trans    &kp UP    &trans     &trans  &trans                  &trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp 9   &trans     &kp F12
-&bt BT_NXT     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans                  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp 6   &kp MINUS  &kp PIPE
-&bootloader    &trans    &trans    &trans     &trans  &trans                  &trans      &kp 1                 &kp 2                  &kp 3   &kp FSLH   &kp UNDER
-                         &trans    &kp PSCRN                                                                    &trans                 &trans
-                                              &trans  &trans                  &pwrd_mcro  &email_mcro
-                                                      &trans  &trans  &trans  &trans
-                                                      &trans  &trans  &trans  &trans
+&bt BT_SEL 0   &kp F1    &kp F2    &kp F3     &kp F4  &kp F5                         &kp F6      &kp F7                &kp F8                 &kp F9  &kp F10    &kp F11
+&bt BT_DISC 0  &trans    &kp UP    &trans     &trans  &trans                         &trans      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp 9   &trans     &kp F12
+&bt BT_NXT     &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans                         &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp 6   &kp MINUS  &kp PIPE
+&bootloader    &trans    &trans    &trans     &trans  &kp BACKSPACE                  &trans      &kp 1                 &kp 2                  &kp 3   &kp FSLH   &kp UNDER
+                         &trans    &kp PSCRN                                                                           &trans                 &trans
+                                              &trans  &trans                         &pwrd_mcro  &email_mcro
+                                                      &trans         &trans  &trans  &trans
+                                                      &trans         &trans  &trans  &trans
             >;
         };
 
